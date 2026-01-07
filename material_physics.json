@@ -1,0 +1,37 @@
+{
+  "material_registry": {
+    "protocol": "Basalt Covenant v1.1",
+    "enforced_by": "Adel Abdel-Dayem",
+    "compliance_target": 1.0
+  },
+  "materials": {
+    "KemetianBlackBasalt": {
+      "physical_properties": {
+        "density_g_cm3": 2.795,
+        "porosity_vol_percent": 7.8,
+        "compressive_strength_mpa": 250,
+        "thermal_conductivity_mcal": 3.97
+      },
+      "rendering_logic": {
+        "albedo_hex": "#1A1A1B",
+        "roughness_base": 0.45,
+        "specular_invariance": 1.0,
+        "subsurface_scattering": 0.01,
+        "anisotropy": 0.05
+      }
+    },
+    "TuraLimestone": {
+      "physical_properties": {
+        "density_g_cm3": 2.3,
+        "porosity_vol_percent": 15.0,
+        "compression_velocity_km_sec": 3.5
+      },
+      "rendering_logic": {
+        "albedo_hex": "#F5F5DC",
+        "roughness_base": 0.85,
+        "subsurface_scattering": 0.992,
+        "reflectance_drift_limit": 0.0001
+      }
+    }
+  }
+}
