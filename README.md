@@ -1,0 +1,1 @@
+# basalt-covenant-schema
